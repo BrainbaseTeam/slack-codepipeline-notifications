@@ -1,0 +1,9 @@
+{
+  "name": "slack-codepipeline-notifications",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
