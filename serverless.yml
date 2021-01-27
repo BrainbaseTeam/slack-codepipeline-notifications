@@ -2,7 +2,7 @@ service: slack-codepipeline-notifications
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.x
 
   stage: production
   region: us-west-2
@@ -24,7 +24,7 @@ functions:
             detail:
               state:
                 - STARTED
-                - FAILED 
+                - FAILED
                 - IN_PROGRESS
-                - CANCELED 
+                - CANCELED
                 - SUCCEEDED
