@@ -2,13 +2,13 @@ service: slack-codepipeline-notifications
 
 provider:
   name: aws
-  runtime: nodejs12.x
+  runtime: nodejs14.x
 
   stage: production
   region: us-west-2
 
   environment:
-      SLACK_WEBHOOK_URL: https://CHANGEME
+      SLACK_WEBHOOK_URL: https://CHANGE_ME
 
 functions:
   notification:
