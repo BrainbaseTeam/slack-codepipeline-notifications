@@ -9,6 +9,8 @@ provider:
 
   environment:
       SLACK_WEBHOOK_URL: https://CHANGE_ME
+      SECONDARY_SLACK_WEBHOOK_URL: https://CHANGE_ME
+      APP_NAME: Brainbase Backend
 
 functions:
   notification:
